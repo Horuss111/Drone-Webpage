@@ -175,7 +175,10 @@ button {
 }
 
 .hero {
-    padding: 100px 0 96px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
 }
 .hero-inner {
     display: flex;
